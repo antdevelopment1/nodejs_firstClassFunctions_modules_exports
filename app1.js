@@ -53,6 +53,7 @@ var c = {};
 c.prop1 = {};
 changeObj(c);
 console.log(c);
+
 // Outputs the value { prop1: [Function], prop2: {} }
 function change(b) {
     b = 2
